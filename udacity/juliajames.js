@@ -42,8 +42,11 @@ while (x< 21) {
     console.log('Julia')
   } else if (x%3 !== 0 && x%5 === 0) {
     console.log('James')
+  } else if(x%3 === 0 && x%5 === 0){
+    console.log('JuliaJames')
+  }else{
+    console.log(x)
   }
-
-    // print Julia, James, or JuliaJames
     // increment x
+    x++
 }
