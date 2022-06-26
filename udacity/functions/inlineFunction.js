@@ -34,4 +34,4 @@ emotions('happy', function laugh(n){
   return sound
 })
 // Argument 1 - "happy" string
-// Argument 2 - an inline function expression
+// Argument 2 - an inline function expressiong
